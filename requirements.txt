@@ -1,0 +1,7 @@
+python-dotenv
+argparse
+requests
+langchain-google-genai
+langchain-community
+langchain-text-splitters
+streamlit
