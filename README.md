@@ -31,11 +31,10 @@ Follow these steps to get the summarizer up and running on your local machine.
 
 1.  **Clone the Repository:**
     ```bash
-    git clone <YOUR_GITHUB_REPOSITORY_URL>
+    git clone https://github.com/Its-Yash/langchain-gemini-web-summary.git
     cd website-summarizer
     ```
-    *(Replace `<YOUR_GITHUB_REPOSITORY_URL>` with the actual URL of your forked or created repository)*
-
+   
 2.  **Create a Virtual Environment (Recommended):**
     ```bash
     python -m venv venv
