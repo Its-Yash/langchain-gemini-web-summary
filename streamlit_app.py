@@ -12,7 +12,12 @@ chain_type = st.selectbox(
     ["stuff", "map_reduce", "refine"],
     index=1  # Default to "map_reduce"
 )
-model_name = st.text_input("Enter the Gemini model name (default: gemini-pro):", value="gemini-pro")
+
+model_name = st.selectbox(
+    "Select the Gemini model:",
+    ["gemini-pro", "gemini-1.5-flash"],
+    index=0  # Default to "gemini-pro"
+)
 
 # Button to generate summary
 if st.button("Generate Summary"):
